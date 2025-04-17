@@ -1,13 +1,15 @@
 #stoic-quote {
     max-width: 500px;
-    margin: 2rem auto;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 12px;
     background-color: #f4f1ea;
     font-family: 'Georgia', serif;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
+.stoic-quote:hover .refresh-btn{
+    display: block;
+} 
   #quote {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -18,16 +20,5 @@
     text-align: right;
     font-style: italic;
     color: #555;
-  }
-
-  #refresh-btn {
-    display: block;
-    margin: 1rem auto 0;
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: #222;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
   }
 
