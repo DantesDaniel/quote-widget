@@ -1,7 +1,12 @@
-body{
+#stoic-quote {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 12px;
     background-color: #f4f1ea;
     font-family: 'Georgia', serif;
-}
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
 
   #quote {
     font-size: 1.2rem;
